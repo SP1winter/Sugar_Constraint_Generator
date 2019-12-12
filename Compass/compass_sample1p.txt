@@ -1,0 +1,16 @@
+4 4 3
+1 1 - - - 2
+1 2 - - 1 -
+2 2 1 1 - -
+
+by SP1
+
+format:
+
+#rows #columns #hints
+r c u d l r
+...
+...
+
+
+
