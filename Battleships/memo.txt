@@ -11,7 +11,7 @@
 ↓
 generator.py をPythonで実行
 ↓
-battleship.csp をSugarで実行 → 解の存在判定！
+battleships.csp をSugarで実行 → 解の存在判定！
 ↓
 解があればresult.txtに実行結果を貼る
 ↓
@@ -19,7 +19,7 @@ battleship.csp をSugarで実行 → 解の存在判定！
 ↓
 uniqueness.py をSugarで実行
 ↓
-battleship.csp をSugarで実行 → 唯一解判定！
+battleships.csp をSugarで実行 → 唯一解判定！
 
 ### 制約の生成 (generator.py)
 適当なテキストファイルに問題を入力します。デフォルトでは "battleships_sample1p.txt" になっています。
@@ -51,7 +51,7 @@ battleship.csp をSugarで実行 → 唯一解判定！
 デフォルトで "battleships_sample1p.txt" となっている場所です。
 (盤面サイズを取得するための苦肉の策です...)
 あとはPython で "uniqueness.py" を実行しましょう。
-これで、見つかった解を除外する制約を "battleship.csp" に追記します。
+これで、見つかった解を除外する制約を "battleships.csp" に追記します。
 これをSugarで実行すれば、唯一解かどうかチェックできます。
 
 ### 描画 (graphic.py)
